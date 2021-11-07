@@ -36,7 +36,7 @@ function generatePassword() {
   var confirmLowerCase = confirm("Click OK to confirm if you would like to include lowercase characters");
   var confirmUpperCase = confirm("Click OK to confirm if you would like to include uppercase characters");
   // 6. Validate input
-  while (confirmSpecialCharacter === false && confirmNumericCharacter === false && confirmLowerCase === fasle && confirmUpperCase === false) {
+  while (confirmSpecialCharacter === false && confirmNumericCharacter === false && confirmLowerCase === false && confirmUpperCase === false) {
     alert("You must choose at least one parameter");
     var confirmSpecialCharacter = confirm("Click OK to confirm if you would like to include special characters");
     var confirmNumericCharacter = confirm("Click OK to confirm if you would like to include numeric characters");
